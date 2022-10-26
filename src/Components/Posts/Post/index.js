@@ -16,7 +16,7 @@ const Post = ({ name, img, tag, title }) => {
               <img src={profilePhoto} alt="profile" className="rounded-full" />
             </div>
             <div>
-              <p className="font-semibold text-sm">{name}</p>
+              <p className="font-semibold text-sm">Joel Deon Dsouza</p>
               <p
                 className="text-sm"
                 style={{
