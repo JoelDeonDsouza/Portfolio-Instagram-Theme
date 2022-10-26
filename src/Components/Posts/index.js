@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 // data
-import dataPosts from "../../Assets/Data/posts.json";
+import DataPosts from "../../Assets/Data/posts.js";
 
 // import card components
 import Post from "./Post";
@@ -11,7 +11,7 @@ const Posts = () => {
 
   useEffect(() => {
     return () => {
-      setData(dataPosts);
+      setData(DataPosts);
     };
   }, []);
 
