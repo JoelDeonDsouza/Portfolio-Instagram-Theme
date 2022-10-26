@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 // data
-import dataStory from "../../Assets/Data/story.json";
+import DataStory from "../../Assets/Data/story.js";
 
 // components
 import Story from "./Story";
@@ -11,7 +11,7 @@ const Stories = () => {
 
   useEffect(() => {
     return () => {
-      setData(dataStory);
+      setData(DataStory);
     };
   }, []);
 

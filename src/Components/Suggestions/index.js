@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 
 // data
-import dataSuggest from "../../Assets/Data/suggest.json";
+import DataSuggest from "../../Assets/Data/suggest.js";
 
 const Suggestions = () => {
   const [data, setData] = useState();
 
   useEffect(() => {
     return () => {
-      setData(dataSuggest);
+      setData(DataSuggest);
     };
   }, []);
 
