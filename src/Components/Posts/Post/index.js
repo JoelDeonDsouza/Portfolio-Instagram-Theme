@@ -6,6 +6,7 @@ import heart from "../../../Assets/images/heart.png";
 import message from "../../../Assets/images/message.png";
 import send from "../../../Assets/images/send.png";
 
+// ! post data //
 const Post = ({ name, img, tag, title }) => {
   return (
     <div>
