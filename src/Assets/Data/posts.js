@@ -58,7 +58,7 @@ const DataPosts = [
     link: "mailto:jdeondsouza@gmail.com",
   },
   {
-    id: 7,
+    id: 8,
     userName: "Twitter connect",
     postImg:
       "https://static.dezeen.com/uploads/2012/06/dezeen_twitter-bird.gif",
