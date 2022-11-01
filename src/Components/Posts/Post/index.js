@@ -6,7 +6,7 @@ import heart from "../../../Assets/images/heart.png";
 import message from "../../../Assets/images/message.png";
 import send from "../../../Assets/images/send.png";
 
-const Post = ({ name, img, tag, title }) => {
+const Post = ({ name, img, tag, title, link }) => {
   return (
     <div>
       <div className="border rounded-lg my-3">
@@ -59,6 +59,19 @@ const Post = ({ name, img, tag, title }) => {
             >
               {tag}
             </p>
+            {/* !Added parameter */}
+            {link ? (
+              <a
+                href={link}
+                style={{
+                  fontSize: "16px",
+                  fontWeight: "500",
+                  color: "#2192FF",
+                }}
+              >
+                Click here
+              </a>
+            ) : null}
           </div>
           {/* title */}
         </div>

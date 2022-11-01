@@ -10,6 +10,15 @@ const DataPosts = [
   },
   {
     id: 2,
+    userName: "Github",
+    postImg:
+      "https://github.githubassets.com/images/modules/logos_page/Octocat.png",
+    caption: "Few of my projects are available on this GitHub.",
+    title: "#Github Account",
+    link: "https://github.com/JoelDeonDsouza",
+  },
+  {
+    id: 3,
     userName: "JavaScript Skills",
     postImg: "https://apostube.com/wp-content/uploads/2022/06/js1-720x530.jpg",
     caption:
@@ -17,7 +26,7 @@ const DataPosts = [
     title: "#Programming-language",
   },
   {
-    id: 3,
+    id: 4,
     userName: "React Skills",
     postImg: "https://wallpaperaccess.com/full/3949076.jpg",
     caption:
@@ -25,7 +34,7 @@ const DataPosts = [
     title: "#JavaScript-Library",
   },
   {
-    id: 4,
+    id: 5,
     userName: "Node.js Skills",
     postImg: "https://wallpaperaccess.com/full/3909251.jpg",
     caption: "MongoDB, Express, Package management, Security.",

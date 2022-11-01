@@ -24,6 +24,7 @@ const Posts = () => {
           img={item.postImg}
           tag={item.caption}
           title={item.title}
+          link={item.link}
         />
       ))}
     </div>
