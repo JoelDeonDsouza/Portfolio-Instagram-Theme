@@ -4,6 +4,9 @@ import React from "react";
 import Logo from "../../Assets/images/logo.png";
 import Profile from "../../Assets/images/profile.png";
 
+// pdf
+import resume from "../../Assets/Data/resume.pdf";
+
 const Nav = () => {
   return (
     <div
@@ -50,9 +53,14 @@ const Nav = () => {
               <span className="material-symbols-outlined">code</span>
             </a>
           </div>
-          <div className="btn">
+          <div className="btn hidden sm:flex">
             <a href="mailto:jdeondsouza@gmail.com">
               <span className="material-symbols-outlined">alternate_email</span>
+            </a>
+          </div>
+          <div className="btn">
+            <a href={resume} download>
+              <span class="material-symbols-outlined">download</span>
             </a>
           </div>
           {/* profile */}
