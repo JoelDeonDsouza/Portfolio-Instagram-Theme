@@ -53,7 +53,7 @@ const DataPosts = [
     userName: "Gmail connect",
     postImg:
       "https://play-lh.googleusercontent.com/KSuaRLiI_FlDP8cM4MzJ23ml3og5Hxb9AapaGTMZ2GgR103mvJ3AAnoOFz1yheeQBBI",
-    caption: "Lets create something together!",
+    caption: "Get in Touch!",
     title: "#Connect-mail",
     link: "mailto:jdeondsouza@gmail.com",
   },
