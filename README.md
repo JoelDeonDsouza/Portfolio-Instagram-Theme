@@ -2,7 +2,7 @@
 
 ## Screenshots
 
-![App Screenshot](https://jobelhome.w3spaces.com/Screenshot_2022-10-26_at_11.40.04.png?bypass-cache=77347712)
+![App Screenshot](https://dsouzafamily2022.w3spaces.com/paper.png?bypass-cache=18769518)
 
 ## Documentation
 
