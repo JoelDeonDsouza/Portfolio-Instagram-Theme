@@ -12,7 +12,7 @@ const DataPosts = [
     id: 2,
     userName: "Github",
     postImg:
-      "https://github.githubassets.com/images/modules/logos_page/Octocat.png",
+      "https://pbs.twimg.com/profile_images/1372304699601285121/5yBS6_3F_400x400.jpg",
     caption: "Few of my projects are available on this GitHub.",
     title: "#Github Account",
     link: "https://github.com/JoelDeonDsouza",
